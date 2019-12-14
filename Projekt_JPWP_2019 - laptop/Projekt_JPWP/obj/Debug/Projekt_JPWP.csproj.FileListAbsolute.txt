@@ -1,0 +1,51 @@
+D:\JPWP_projekty\Projekt_JPWP_2019\Projekt_JPWP\bin\Debug\Projekt_JPWP.exe.config
+D:\JPWP_projekty\Projekt_JPWP_2019\Projekt_JPWP\bin\Debug\Projekt_JPWP.exe
+D:\JPWP_projekty\Projekt_JPWP_2019\Projekt_JPWP\bin\Debug\Projekt_JPWP.pdb
+D:\JPWP_projekty\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\Projekt_JPWP.csprojAssemblyReference.cache
+D:\JPWP_projekty\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\MainWindow.g.cs
+D:\JPWP_projekty\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\App.g.cs
+D:\JPWP_projekty\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\Projekt_JPWP_MarkupCompile.cache
+D:\JPWP_projekty\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\Projekt_JPWP_MarkupCompile.lref
+D:\JPWP_projekty\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\MainWindow.baml
+D:\JPWP_projekty\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\Projekt_JPWP.g.resources
+D:\JPWP_projekty\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\Projekt_JPWP.Properties.Resources.resources
+D:\JPWP_projekty\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\Projekt_JPWP.csproj.GenerateResource.cache
+D:\JPWP_projekty\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\Projekt_JPWP.csproj.CoreCompileInputs.cache
+D:\JPWP_projekty\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\Projekt_JPWP.exe
+D:\JPWP_projekty\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\Projekt_JPWP.pdb
+D:\JPWP_projekty\Projekt_JPWP_2019\Projekt_JPWP\bin\Debug\Control.Draggable.dll
+D:\JPWP_projekty\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\Projekt_JPWP.csproj.CopyComplete
+C:\Users\Cezary\Desktop\Projekt_JPWP_2019\Projekt_JPWP\bin\Debug\Projekt_JPWP.exe.config
+C:\Users\Cezary\Desktop\Projekt_JPWP_2019\Projekt_JPWP\bin\Debug\Projekt_JPWP.exe
+C:\Users\Cezary\Desktop\Projekt_JPWP_2019\Projekt_JPWP\bin\Debug\Projekt_JPWP.pdb
+C:\Users\Cezary\Desktop\Projekt_JPWP_2019\Projekt_JPWP\bin\Debug\Control.Draggable.dll
+C:\Users\Cezary\Desktop\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\Projekt_JPWP.csprojAssemblyReference.cache
+C:\Users\Cezary\Desktop\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\MainWindow.g.cs
+C:\Users\Cezary\Desktop\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\App.g.cs
+C:\Users\Cezary\Desktop\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\Projekt_JPWP_MarkupCompile.cache
+C:\Users\Cezary\Desktop\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\Projekt_JPWP_MarkupCompile.lref
+C:\Users\Cezary\Desktop\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\MainWindow.baml
+C:\Users\Cezary\Desktop\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\Projekt_JPWP.g.resources
+C:\Users\Cezary\Desktop\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\Projekt_JPWP.Properties.Resources.resources
+C:\Users\Cezary\Desktop\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\Projekt_JPWP.csproj.GenerateResource.cache
+C:\Users\Cezary\Desktop\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\Projekt_JPWP.csproj.CoreCompileInputs.cache
+C:\Users\Cezary\Desktop\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\Projekt_JPWP.csproj.CopyComplete
+C:\Users\Cezary\Desktop\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\Projekt_JPWP.exe
+C:\Users\Cezary\Desktop\Projekt_JPWP_2019\Projekt_JPWP\obj\Debug\Projekt_JPWP.pdb
+D:\JPWP_projekty\Projekt_JPWP_2019 - laptop\Projekt_JPWP\bin\Debug\Projekt_JPWP.exe.config
+D:\JPWP_projekty\Projekt_JPWP_2019 - laptop\Projekt_JPWP\bin\Debug\Projekt_JPWP.exe
+D:\JPWP_projekty\Projekt_JPWP_2019 - laptop\Projekt_JPWP\bin\Debug\Projekt_JPWP.pdb
+D:\JPWP_projekty\Projekt_JPWP_2019 - laptop\Projekt_JPWP\bin\Debug\Control.Draggable.dll
+D:\JPWP_projekty\Projekt_JPWP_2019 - laptop\Projekt_JPWP\obj\Debug\Projekt_JPWP.csprojAssemblyReference.cache
+D:\JPWP_projekty\Projekt_JPWP_2019 - laptop\Projekt_JPWP\obj\Debug\MainWindow.g.cs
+D:\JPWP_projekty\Projekt_JPWP_2019 - laptop\Projekt_JPWP\obj\Debug\App.g.cs
+D:\JPWP_projekty\Projekt_JPWP_2019 - laptop\Projekt_JPWP\obj\Debug\Projekt_JPWP_MarkupCompile.cache
+D:\JPWP_projekty\Projekt_JPWP_2019 - laptop\Projekt_JPWP\obj\Debug\Projekt_JPWP_MarkupCompile.lref
+D:\JPWP_projekty\Projekt_JPWP_2019 - laptop\Projekt_JPWP\obj\Debug\MainWindow.baml
+D:\JPWP_projekty\Projekt_JPWP_2019 - laptop\Projekt_JPWP\obj\Debug\Projekt_JPWP.g.resources
+D:\JPWP_projekty\Projekt_JPWP_2019 - laptop\Projekt_JPWP\obj\Debug\Projekt_JPWP.Properties.Resources.resources
+D:\JPWP_projekty\Projekt_JPWP_2019 - laptop\Projekt_JPWP\obj\Debug\Projekt_JPWP.csproj.GenerateResource.cache
+D:\JPWP_projekty\Projekt_JPWP_2019 - laptop\Projekt_JPWP\obj\Debug\Projekt_JPWP.csproj.CoreCompileInputs.cache
+D:\JPWP_projekty\Projekt_JPWP_2019 - laptop\Projekt_JPWP\obj\Debug\Projekt_JPWP.csproj.CopyComplete
+D:\JPWP_projekty\Projekt_JPWP_2019 - laptop\Projekt_JPWP\obj\Debug\Projekt_JPWP.exe
+D:\JPWP_projekty\Projekt_JPWP_2019 - laptop\Projekt_JPWP\obj\Debug\Projekt_JPWP.pdb
