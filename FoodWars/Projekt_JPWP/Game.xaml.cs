@@ -9,35 +9,33 @@ using System.Windows.Navigation;
 
 namespace Projekt_JPWP
 {
-    /// <summary>
-    /// Logika interakcji dla klasy MainWindow.xaml
-    /// </summary>
     public partial class Game : Page
     {
         private Plate _plate;
         private MapSetting _map;
         private Player _player;
         private DispatcherTimer _timer;
-
+        private Menu menu;
         private int _map_counter = 1;
         private int _second, _minute;
 
         public DispatcherTimer Timer { get => _timer;}
-        public int Map_counter { get => _map_counter; }
+        public int Map_counter { get => _map_counter;}
 
-        private enum _selectMap { first, second, third };
+        private enum _selectMap { first, second, third , fourth };
         public Game()
         {
             InitializeComponent();
             SelectMap();
             _player = new Player();
+            menu = new Menu(this);
             _timer = new DispatcherTimer();
             _timer.Interval = new TimeSpan(0, 0, 1);
             _timer.Tick += _timer_Tick;
             _timer.Start();
         }
 
-        #region Map selection and clear, create a plate
+        #region Map selection, generate and clear; Plate create
         public void SelectMap()
         {
             if (_map_counter == 1)
@@ -46,10 +44,11 @@ namespace Projekt_JPWP
                 GenerateMap(_selectMap.second);
             else if (_map_counter == 3)
                 GenerateMap(_selectMap.third);
+            else if (_map_counter == 4)
+                GenerateMap(_selectMap.fourth);
             else
             {
                 _timer.Stop();
-                Menu menu = new Menu(this);
                 NavigationService.Navigate(menu);
             }
         }
@@ -58,7 +57,7 @@ namespace Projekt_JPWP
             switch (level)
             {
                 case _selectMap.first:
-                    WindowClear();
+                    MapClear();
 
                     _map = new MapSetting((int)level);
 
@@ -72,7 +71,7 @@ namespace Projekt_JPWP
                     break;
                 case _selectMap.second:
                     ResetTimer();
-                    WindowClear();
+                    MapClear();
 
                     _map = new MapSetting((int)level);
 
@@ -85,7 +84,20 @@ namespace Projekt_JPWP
                     break;
                 case _selectMap.third:
                     ResetTimer();
-                    WindowClear();
+                    MapClear();
+
+                    _map = new MapSetting((int)level);
+
+                    CreatePlate(_map.MaxCalories, _map.ProductAtPlate);
+
+                    foreach (Product p in _map.Products)
+                        ProductsWrapPanel.Children.Add(p);
+
+                    max_calories.Content = _plate.MaxCalories.ToString();
+                    break;
+                case _selectMap.fourth:
+                    ResetTimer();
+                    MapClear();
 
                     _map = new MapSetting((int)level);
 
@@ -106,7 +118,7 @@ namespace Projekt_JPWP
             Time.Content = "00:00";
         }
 
-        private void WindowClear()
+        private void MapClear()
         {
             try
             {
@@ -119,7 +131,7 @@ namespace Projekt_JPWP
             {
             }
         }
-        //Create plate
+
         public void CreatePlate(int calories, int elements)
         {
             _plate = new Plate(calories);
@@ -158,24 +170,16 @@ namespace Projekt_JPWP
             if (_minute < 10)
             {
                 if (_second < 10)
-                {
                     Time.Content = string.Format("0{0}:0{1}", _minute, _second);
-                }
                 else
-                {
                     Time.Content = string.Format("0{0}:{1}", _minute, _second);
-                }
             }
             else
             {
                 if (_second < 10)
-                {
                     Time.Content = string.Format("{0}:0{1}", _minute, _second);
-                }
                 else
-                {
                     Time.Content = string.Format("{0}:{1}", _minute, _second);
-                }
             }
         }
 
@@ -196,14 +200,16 @@ namespace Projekt_JPWP
 
                 if (panel.Name == "PlateWrapPanel")
                 {
+                    //Calculate position of top left corner of a picture in PlateWrapPanel
                     PositionAtPlate(i, leftMargin, topMargin, (int)food.Width, ref pictureLeft, ref pictureTop);
                 }
                 else if (panel.Name == "ProductsWrapPanel")
                 {
+                    //Calculate position of top left corner of a picture in ProductsWrapPanel
                     PositionAtWrapPanel(i, leftMargin, topMargin, (int)food.Width, ref pictureLeft, ref pictureTop);
                 }
 
-
+                //Right bottom corner of a picture
                 pictureBot = pictureTop + (int)food.Height;
                 pictureRight = pictureLeft + (int)food.Width;
 
@@ -263,6 +269,7 @@ namespace Projekt_JPWP
                     ShowScore();
             }
         }
+
         private void ProductsWrapPanel_MouseEnter(object sender, MouseEventArgs e)
         {
             WrapPanel panel = sender as WrapPanel;
@@ -275,10 +282,10 @@ namespace Projekt_JPWP
                 food.ToolTip = toolTip;
             }
         }
+
         private void OnMenuClick(object sender, RoutedEventArgs e)
         {
             _timer.Stop();
-            Menu menu = new Menu(this);
             NavigationService.Navigate(menu);
         }
         #endregion
@@ -331,7 +338,6 @@ namespace Projekt_JPWP
             {
                 amount = amount + p.Calories;
             }
-            Console.WriteLine(amount);
             return amount;
         }
 

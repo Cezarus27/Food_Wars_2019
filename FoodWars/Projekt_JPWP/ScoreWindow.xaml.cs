@@ -1,10 +1,8 @@
 ﻿using System.Windows;
+using System.Windows.Navigation;
 
 namespace Projekt_JPWP
 {
-    /// <summary>
-    /// Logika interakcji dla klasy ScoreWindow.xaml
-    /// </summary>
     public partial class ScoreWindow : Window
     {
         private Game _game;

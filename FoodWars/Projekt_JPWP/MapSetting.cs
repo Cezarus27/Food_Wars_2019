@@ -21,9 +21,9 @@ namespace Projekt_JPWP
         private int mapSetting;
         private int _maxCalories;
         private int _productAtPlate;
-        private static int[] _productCalories = { 60, 30, 20, 40, 400, 200, 150, 150, 75, 70 };
+        private static int[] _productCalories = { 60, 30, 20, 40, 400, 200, 150, 150, 75, 70, 320, 15 };
         private enum _allProducts{ apple, beetroot, bread, carrot, cooked_beef, cooked_chicken,
-            cooked_cod, cooked_salmon, egg, potato};
+            cooked_cod, cooked_salmon, egg, potato, cooked_mutton, melon_slice};
 
 
         public MapSetting(int setNumber)
@@ -43,16 +43,20 @@ namespace Projekt_JPWP
                     ChooseProducts(10);
                     VictoryCondidtion(7);
                     break;
+                case 3:
+                    ChooseProducts(12);
+                    VictoryCondidtion(8);
+                    break;
             }
         }
 
         private void ChooseProducts(int productNumber)
         {
-            if (productNumber != 10)
+            if (productNumber != _productCalories.Length)
             {
                 for (int i = 0; i < productNumber; i++)
                 {
-                    _allProducts p = (_allProducts)(new Random()).Next(10);
+                    _allProducts p = (_allProducts)(new Random()).Next(12);
                     if (!ElementExist(p.ToString()))
                     {
                         int cal = ChooseCalories((int)p);

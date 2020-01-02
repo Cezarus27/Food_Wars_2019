@@ -49,6 +49,9 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="WpfAnimatedGif, Version=1.4.18.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WpfAnimatedGif.1.4.18\lib\net\WpfAnimatedGif.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -111,6 +114,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -118,9 +122,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="img\plate_1.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="img\background.png" />
@@ -143,6 +144,22 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="img\button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\cooked_mutton.png" />
+    <Resource Include="img\melon_slice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\column1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\fire.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\menu_plate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\button2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

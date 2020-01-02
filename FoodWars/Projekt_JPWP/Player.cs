@@ -1,5 +1,4 @@
-﻿
-namespace Projekt_JPWP
+﻿namespace Projekt_JPWP
 {
     public class Player
     {
