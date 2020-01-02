@@ -6,58 +6,14 @@
         xmlns:local="clr-namespace:Projekt_JPWP"
         mc:Ignorable="d"
         Title="Food_Wars" Height="720" Width="1280" ResizeMode="NoResize" Cursor="Arrow" WindowStartupLocation="CenterScreen"
-        x:Name="Food_Wars_Window">
+        WindowStyle="None" x:Name="Food_Wars_Window">
     <Window.Background>
-        <ImageBrush ImageSource="img/background.png"/>
+        <SolidColorBrush Color="Transparent"/>
     </Window.Background>
-    <Grid x:Name="rootGrid">
-        <StackPanel x:Name="ProductsStackPanel" 
-                    Orientation="Vertical" 
-                    HorizontalAlignment="Left" 
-                    Height="600" Width="100"
-                    VerticalAlignment="Top" 
-                    Margin="10,81,0,0" 
-                    Background="Transparent"
-                    MouseDown="Products_MouseDown"
-                    AllowDrop="True"
-                    Drop="ProductsStackPanel_Drop"/>
-        <!--><Grid x:Name="PlateGrid" 
-              HorizontalAlignment="Left" 
-              Height="200" Width="620"
-              VerticalAlignment="Top"
-              Margin="323,325,0,0"
-              AllowDrop="True"
-              Background="Transparent">
-            <Grid.RowDefinitions>
-                <RowDefinition Name="Top" Height="*"></RowDefinition>
-                <RowDefinition Name="Bottom" Height="*"></RowDefinition>
-            </Grid.RowDefinitions>
-            <StackPanel x:Name="PlateStackPanelTop"
-                Width="620" Height="100"
-                Orientation="Horizontal"
-                HorizontalAlignment="Left" 
-                VerticalAlignment="Top"
-                DragEnter="StackPanel_DragEnter"
-                Drop="StackPanel_Drop" 
-                Background="Transparent"/>
-            <StackPanel x:Name="PlateStackPanelBottom"
-                HorizontalAlignment="Left" 
-                Height="100" Width="620"
-                VerticalAlignment="Top" 
-                Margin="0,100,0,0"
-                DragEnter="StackPanel_DragEnter"
-                Drop="StackPanel_Drop" 
-                Background="Transparent"/>
-        </Grid>
-        <WrapPanel x:Name="PlateWrapPanel"
-                Width="600" Height="200"
-                Margin="333,330,0,0"
-                Orientation="Horizontal"
-                HorizontalAlignment="Left" 
-                VerticalAlignment="Top"
-                AllowDrop="True"
-                DragEnter="StackPanel_DragEnter"
-                Drop="StackPanel_Drop" 
-                Background="Transparent"/><-->
+    <Grid>
+        <Frame
+            x:Name="GameFrame"
+            Background="Transparent"
+            NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>

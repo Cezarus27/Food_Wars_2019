@@ -1,0 +1,39 @@
+﻿<Page x:Class="Projekt_JPWP.Menu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Projekt_JPWP"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1280"
+      Title="Menu"
+      KeepAlive="True">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="img/Menu.png"/>
+        </Grid.Background>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button x:Name="NewGame"  Height="100" Width="300" Content="NOWA GRA" Click="NewGame_Click" TextBlock.FontSize="40" Style="{StaticResource MyButton}">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/button.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Save"  Height="100" Width="300" Margin="0,20,0,0" Content="ZAPISZ" Click="Save_Click" TextBlock.FontSize="40" Style="{StaticResource MyButton}">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/button.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="BackToGame" Height="100" Width="300" Margin="0,20,0,0" Content="WRÓĆ DO GRY" Click="BackToGame_Click" TextBlock.FontSize="40" Style="{StaticResource MyButton}">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/button.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Exit" Height="100" Width="300" Margin="0,20,0,0" Content="WYJDŹ Z GRY" Click="Exit_Click" TextBlock.FontSize="40" Style="{StaticResource MyButton}">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/button.png"/>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Page>

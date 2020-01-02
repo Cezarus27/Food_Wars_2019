@@ -15,13 +15,14 @@ namespace Projekt_JPWP
         private List<int> _calories = new List<int>();
 
         internal List<Product> Products { get => _products;}
-        public List<int> Calories { get => _calories; }
         public int MaxCalories { get => _maxCalories; }
+        public int ProductAtPlate { get => _productAtPlate;}
 
         private int mapSetting;
         private int _maxCalories;
+        private int _productAtPlate;
         private static int[] _productCalories = { 60, 30, 20, 40, 400, 200, 150, 150, 75, 70 };
-        private enum _allProducts{ apple, beetroot, bread, carrrot, cooked_beef, cooked_chicken,
+        private enum _allProducts{ apple, beetroot, bread, carrot, cooked_beef, cooked_chicken,
             cooked_cod, cooked_salmon, egg, potato};
 
 
@@ -30,56 +31,71 @@ namespace Projekt_JPWP
             mapSetting = setNumber;
             switch(setNumber)
             {
-                case 1:
+                case 0:
                     ChooseProducts(3);
-                    VictoryCondidtion();
+                    VictoryCondidtion(3);
+                    break;
+                case 1:
+                    ChooseProducts(6);
+                    VictoryCondidtion(4);
                     break;
                 case 2:
-                    ChooseProducts(6);
-                    VictoryCondidtion();
-                    break;
-                case 3:
                     ChooseProducts(10);
-                    VictoryCondidtion();
+                    VictoryCondidtion(7);
                     break;
-
             }
         }
 
         private void ChooseProducts(int productNumber)
         {
-            string previewProduct = null;
+            if (productNumber != 10)
+            {
+                for (int i = 0; i < productNumber; i++)
+                {
+                    _allProducts p = (_allProducts)(new Random()).Next(10);
+                    if (!ElementExist(p.ToString()))
+                    {
+                        int cal = ChooseCalories((int)p);
+                        _calories.Add(cal);
+                        CreateProduct(cal, p.ToString());
+                    }
+                    else
+                        i--;
+                }
+            }
+            else
+                CreateAllProducts(productNumber);
+        }
+
+        private void CreateAllProducts(int productNumber)
+        {
             for (int i = 0; i < productNumber; i++)
             {
-                _allProducts p = (_allProducts)(new Random()).Next(0, 9);
-                if (previewProduct != p.ToString() || i == 0)
-                {
-                    int cal = ChooseCalories((int)p);
-                    _calories.Add(cal);
-
-                    Product product = new Product(cal);
-                    BitmapImage bitmap = new BitmapImage();
-                    //Load bitmap to memory
-                    bitmap.BeginInit();
-                    bitmap.CacheOption = BitmapCacheOption.OnLoad;
-                    bitmap.CreateOptions = BitmapCreateOptions.DelayCreation;
-                    bitmap.UriSource = new Uri("/Projekt_JPWP;component/img/" + p.ToString() + ".png",
-                        UriKind.RelativeOrAbsolute);
-                    bitmap.EndInit();
-                    //set product properties
-                    product.BeginInit();
-                    product.Name = p.ToString();
-                    product.Source = bitmap;
-                    product.Width = 100;
-                    product.Height = 100;
-                    product.EndInit();
-
-                    _products.Add(product);
-                }
-                else
-                    i--;
-                previewProduct = p.ToString();
+                string name = Enum.GetName(typeof(_allProducts), i);
+                CreateProduct(_productCalories[i], name);
+                _calories.Add(_productCalories[i]);
             }
+        }
+
+        private void CreateProduct(int calories, string name)
+        {
+            Product product = new Product(calories);
+            BitmapImage bitmap = new BitmapImage();
+            //Load bitmap to memory
+            bitmap.BeginInit();
+            bitmap.CacheOption = BitmapCacheOption.OnLoad;
+            bitmap.CreateOptions = BitmapCreateOptions.DelayCreation;
+            bitmap.UriSource = new Uri("/Projekt_JPWP;component/img/" + name + ".png", UriKind.RelativeOrAbsolute);
+            bitmap.EndInit();
+            //set product properties
+            product.BeginInit();
+            product.Name = name;
+            product.Source = bitmap;
+            product.Width = 100;
+            product.Height = 100;
+            product.EndInit();
+
+            _products.Add(product);
         }
 
         private int ChooseCalories(int tabIndex)
@@ -87,19 +103,60 @@ namespace Projekt_JPWP
             return _productCalories[tabIndex];
         }
 
-        private void VictoryCondidtion()
+        private void VictoryCondidtion(int elements)
         {
             _maxCalories = 0;
-            int previewIndex = 0;
-            for (int i = 0; i < _calories.Count - 1; i++)
+            _productAtPlate = elements;
+            int[] tabIndex = new int[_calories.Count];
+
+            for (int i = 0; i < _productAtPlate; i++)
             {
-                int index = (new Random()).Next(_calories.Count);
-                if (previewIndex != index)
-                    _maxCalories = _maxCalories + _productCalories[index];
+                if (_productAtPlate == _products.Count)
+                {
+                    _maxCalories =_maxCalories + _calories[i];
+                }
                 else
-                    i--;
-                previewIndex = index;
+                {
+                    int index = (new Random()).Next(_calories.Count);
+                    if (!IndexExist(ref tabIndex, index))
+                    {
+                        tabIndex[i] = index;
+                        _maxCalories = _maxCalories + _calories[index];
+                    }                    
+                    else
+                        i--;
+                }
             }
+        }
+
+        private bool IndexExist(ref int[] tabIndex, int index)
+        {
+            for (int i = 0; i < _calories.Count; i++)
+            {
+                if (tabIndex[i] == index)
+                    return true;
+            }
+            return false;
+        }
+
+        private bool ElementExist(string name)
+        {
+            if (Products.Count != 0)
+            {
+                foreach (Product p in Products)
+                {
+                    if (p.Name == name)
+                        return true;
+                }
+            }
+
+            return false;
+        }
+
+        public void DeleteLists()
+        {
+            Products.RemoveRange(0, Products.Count);
+            _calories.RemoveRange(0, _products.Count);
         }
     }
 }
