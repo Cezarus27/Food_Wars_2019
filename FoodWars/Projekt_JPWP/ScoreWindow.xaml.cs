@@ -1,7 +1,6 @@
 ﻿using System.Windows;
-using System.Windows.Navigation;
 
-namespace Projekt_JPWP
+namespace Food_Wars
 {
     public partial class ScoreWindow : Window
     {

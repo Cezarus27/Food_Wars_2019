@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Projekt_JPWP
+namespace Food_Wars
 {
     /// <summary>
     /// Logika interakcji dla klasy App.xaml

@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media.Imaging;
 
-namespace Projekt_JPWP
+namespace Food_Wars
 {
     class MapSetting
     {
@@ -89,7 +89,7 @@ namespace Projekt_JPWP
             bitmap.BeginInit();
             bitmap.CacheOption = BitmapCacheOption.OnLoad;
             bitmap.CreateOptions = BitmapCreateOptions.DelayCreation;
-            bitmap.UriSource = new Uri("/Projekt_JPWP;component/img/" + name + ".png", UriKind.RelativeOrAbsolute);
+            bitmap.UriSource = new Uri("/Food_Wars;component/img/" + name + ".png", UriKind.RelativeOrAbsolute);
             bitmap.EndInit();
             //set product properties
             product.BeginInit();

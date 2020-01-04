@@ -1,4 +1,4 @@
-﻿<Page x:Class="Projekt_JPWP.Game"
+﻿<Page x:Class="Food_Wars.Game"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,7 +6,7 @@
       mc:Ignorable="d" 
       d:DesignHeight="720" d:DesignWidth="1280"
       VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-      Title="Game" Name="Food_Wars"
+      Title="Game" Name="Game_Page"
       ShowsNavigationUI="False"
       KeepAlive="True">
 

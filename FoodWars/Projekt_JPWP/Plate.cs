@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace Projekt_JPWP
+namespace Food_Wars
 {
     public class Plate : WrapPanel
     {

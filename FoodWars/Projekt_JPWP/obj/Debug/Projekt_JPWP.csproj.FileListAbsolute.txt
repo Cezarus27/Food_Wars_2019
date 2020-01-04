@@ -49,20 +49,11 @@ D:\JPWP_projekty\Projekt_JPWP_2019 - laptop\Projekt_JPWP\obj\Debug\Projekt_JPWP.
 D:\JPWP_projekty\Projekt_JPWP_2019 - laptop\Projekt_JPWP\obj\Debug\Projekt_JPWP.csproj.CopyComplete
 D:\JPWP_projekty\Projekt_JPWP_2019 - laptop\Projekt_JPWP\obj\Debug\Projekt_JPWP.exe
 D:\JPWP_projekty\Projekt_JPWP_2019 - laptop\Projekt_JPWP\obj\Debug\Projekt_JPWP.pdb
-D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\bin\Debug\Projekt_JPWP.exe.config
-D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\bin\Debug\Projekt_JPWP.exe
-D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\bin\Debug\Projekt_JPWP.pdb
 D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\obj\Debug\MainWindow.g.cs
 D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\obj\Debug\App.g.cs
-D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\obj\Debug\Projekt_JPWP_MarkupCompile.cache
-D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\obj\Debug\Projekt_JPWP_MarkupCompile.lref
 D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\obj\Debug\MainWindow.baml
-D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\obj\Debug\Projekt_JPWP.g.resources
-D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\obj\Debug\Projekt_JPWP.Properties.Resources.resources
 D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\obj\Debug\Projekt_JPWP.csproj.GenerateResource.cache
 D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\obj\Debug\Projekt_JPWP.csproj.CoreCompileInputs.cache
-D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\obj\Debug\Projekt_JPWP.exe
-D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\obj\Debug\Projekt_JPWP.pdb
 C:\Users\Cezary\Desktop\FoodWars\Projekt_JPWP\bin\Debug\Projekt_JPWP.exe.config
 C:\Users\Cezary\Desktop\FoodWars\Projekt_JPWP\bin\Debug\Projekt_JPWP.exe
 C:\Users\Cezary\Desktop\FoodWars\Projekt_JPWP\bin\Debug\Projekt_JPWP.pdb
@@ -95,5 +86,63 @@ D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\obj\Debug\ScoreWindow.baml
 D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\bin\Debug\WpfAnimatedGif.dll
 D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\bin\Debug\WpfAnimatedGif.xml
 D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\obj\Debug\Projekt_JPWP.csproj.CopyComplete
-D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\bin\Debug\Projekt_JPWP.exe.CodeAnalysisLog.xml
-D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\bin\Debug\Projekt_JPWP.exe.lastcodeanalysissucceeded
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\bin\Debug\Projekt_JPWP.exe.config
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\bin\Debug\Projekt_JPWP.exe
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\bin\Debug\Projekt_JPWP.pdb
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\bin\Debug\WpfAnimatedGif.dll
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\bin\Debug\WpfAnimatedGif.xml
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\obj\Debug\Projekt_JPWP.csprojAssemblyReference.cache
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\obj\Debug\Game.baml
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\obj\Debug\MainWindow.baml
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\obj\Debug\Menu.baml
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\obj\Debug\Game.g.cs
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\obj\Debug\MainWindow.g.cs
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\obj\Debug\Menu.g.cs
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\obj\Debug\ScoreWindow.g.cs
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\obj\Debug\App.g.cs
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\obj\Debug\Projekt_JPWP_MarkupCompile.cache
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\obj\Debug\Projekt_JPWP_MarkupCompile.lref
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\obj\Debug\App.baml
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\obj\Debug\ScoreWindow.baml
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\obj\Debug\Projekt_JPWP.g.resources
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\obj\Debug\Projekt_JPWP.Properties.Resources.resources
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\obj\Debug\Projekt_JPWP.csproj.GenerateResource.cache
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\obj\Debug\Projekt_JPWP.csproj.CoreCompileInputs.cache
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\obj\Debug\Projekt_JPWP.csproj.CopyComplete
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\obj\Debug\Projekt_JPWP.exe
+D:\JPWP_projekty\FoodWars\Projekt_JPWP\obj\Debug\Projekt_JPWP.pdb
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\bin\Debug\Food_Wars.exe.config
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\bin\Debug\Food_Wars.exe
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\bin\Debug\Food_Wars.pdb
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\bin\Debug\WpfAnimatedGif.dll
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\bin\Debug\WpfAnimatedGif.xml
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\obj\Debug\Projekt_JPWP.csprojAssemblyReference.cache
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\obj\Debug\Game.baml
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\obj\Debug\MainWindow.baml
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\obj\Debug\Menu.baml
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\obj\Debug\Game.g.cs
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\obj\Debug\MainWindow.g.cs
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\obj\Debug\Menu.g.cs
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\obj\Debug\ScoreWindow.g.cs
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\obj\Debug\App.g.cs
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\obj\Debug\Food_Wars_MarkupCompile.cache
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\obj\Debug\Food_Wars_MarkupCompile.lref
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\obj\Debug\App.baml
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\obj\Debug\ScoreWindow.baml
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\obj\Debug\Food_Wars.g.resources
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\obj\Debug\Food_Wars.Properties.Resources.resources
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\obj\Debug\Projekt_JPWP.csproj.GenerateResource.cache
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\obj\Debug\Projekt_JPWP.csproj.CoreCompileInputs.cache
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\obj\Debug\Projekt_JPWP.csproj.CopyComplete
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\obj\Debug\Food_Wars.exe
+D:\JPWP_projekty\FoodWars — kopia\Projekt_JPWP\obj\Debug\Food_Wars.pdb
+D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\bin\Debug\Food_Wars.exe.config
+D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\bin\Debug\Food_Wars.exe
+D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\bin\Debug\Food_Wars.pdb
+D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\obj\Debug\Projekt_JPWP.csprojAssemblyReference.cache
+D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\obj\Debug\Food_Wars_MarkupCompile.cache
+D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\obj\Debug\Food_Wars_MarkupCompile.lref
+D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\obj\Debug\Food_Wars.g.resources
+D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\obj\Debug\Food_Wars.Properties.Resources.resources
+D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\obj\Debug\Food_Wars.exe
+D:\JPWP_projekty\Food_Wars_2019\FoodWars\Projekt_JPWP\obj\Debug\Food_Wars.pdb

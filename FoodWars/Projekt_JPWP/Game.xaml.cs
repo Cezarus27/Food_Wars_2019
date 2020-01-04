@@ -7,7 +7,7 @@ using System.Windows.Threading;
 using System.Windows.Documents;
 using System.Windows.Navigation;
 
-namespace Projekt_JPWP
+namespace Food_Wars
 {
     public partial class Game : Page
     {
@@ -132,7 +132,7 @@ namespace Projekt_JPWP
             }
         }
 
-        public void CreatePlate(int calories, int elements)
+        private void CreatePlate(int calories, int elements)
         {
             _plate = new Plate(calories);
             _plate.Name = "PlateWrapPanel";
@@ -185,7 +185,7 @@ namespace Projekt_JPWP
 
         private void Products_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            Point currentMousePosition = e.GetPosition(Food_Wars);
+            Point currentMousePosition = e.GetPosition(Game_Page);
             WrapPanel panel = sender as WrapPanel;
             int topMargin = (int)panel.Margin.Top;
             int leftMargin = (int)panel.Margin.Left;
