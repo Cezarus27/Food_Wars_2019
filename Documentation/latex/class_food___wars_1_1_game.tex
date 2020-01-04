@@ -1,0 +1,116 @@
+\hypertarget{class_food___wars_1_1_game}{}\doxysection{Food\+\_\+\+Wars.\+Game Class Reference}
+\label{class_food___wars_1_1_game}\index{Food\_Wars.Game@{Food\_Wars.Game}}
+Inheritance diagram for Food\+\_\+\+Wars.\+Game\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_food___wars_1_1_game}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_a832cd20ca8ce1576efb31a8958e24cc7}\label{class_food___wars_1_1_game_a832cd20ca8ce1576efb31a8958e24cc7}} 
+void {\bfseries Select\+Map} ()
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_a7cfe8e90bc9c3c973feaff6ee2acc444}\label{class_food___wars_1_1_game_a7cfe8e90bc9c3c973feaff6ee2acc444}} 
+bool {\bfseries Check\+Win} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_a8cd740a24e210ca24dec06109dc74419}\label{class_food___wars_1_1_game_a8cd740a24e210ca24dec06109dc74419}} 
+Dispatcher\+Timer {\bfseries Timer}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_aee92f30a31ffbe282d76e89717741995}\label{class_food___wars_1_1_game_aee92f30a31ffbe282d76e89717741995}} 
+int {\bfseries Map\+\_\+counter}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_ad29c90936a4adbafb49ff63249ed2b2c}\label{class_food___wars_1_1_game_ad29c90936a4adbafb49ff63249ed2b2c}} 
+enum {\bfseries \+\_\+select\+Map} \{ {\bfseries first}, 
+{\bfseries second}, 
+{\bfseries third}, 
+{\bfseries fourth}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_a6a17f556d08af302c4a08907e71ee87a}\label{class_food___wars_1_1_game_a6a17f556d08af302c4a08907e71ee87a}} 
+void {\bfseries Generate\+Map} (\+\_\+select\+Map level)
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_a1cba457fcd404d70239ccbdf795a2d9a}\label{class_food___wars_1_1_game_a1cba457fcd404d70239ccbdf795a2d9a}} 
+void {\bfseries Reset\+Timer} ()
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_ad7f068bcfdc7d0c5da8b4e16223ed058}\label{class_food___wars_1_1_game_ad7f068bcfdc7d0c5da8b4e16223ed058}} 
+void {\bfseries Map\+Clear} ()
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_a6d9ec731f0cf0df7ee65b1ac29f70eb4}\label{class_food___wars_1_1_game_a6d9ec731f0cf0df7ee65b1ac29f70eb4}} 
+void {\bfseries Create\+Plate} (int calories, int elements)
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_a5c0252dd1eec42841419177b62fa549e}\label{class_food___wars_1_1_game_a5c0252dd1eec42841419177b62fa549e}} 
+void {\bfseries \+\_\+timer\+\_\+\+Tick} (object sender, Event\+Args e)
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_a24bc057f884eeb1c9c2c1b41ad19b521}\label{class_food___wars_1_1_game_a24bc057f884eeb1c9c2c1b41ad19b521}} 
+void {\bfseries Products\+\_\+\+Mouse\+Down} (object sender, Mouse\+Button\+Event\+Args e)
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_a28d0da0c7cd53e443c9a88c5517c873a}\label{class_food___wars_1_1_game_a28d0da0c7cd53e443c9a88c5517c873a}} 
+void {\bfseries Plate\+\_\+\+Drag\+Enter} (object sender, Drag\+Event\+Args e)
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_aa534741c903c4cffc75e9c7805384cfe}\label{class_food___wars_1_1_game_aa534741c903c4cffc75e9c7805384cfe}} 
+void {\bfseries Plate\+\_\+\+Drop} (object sender, Drag\+Event\+Args e)
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_a4b29ff470ac493954e1b03ba6049d04d}\label{class_food___wars_1_1_game_a4b29ff470ac493954e1b03ba6049d04d}} 
+void {\bfseries Products\+Wrap\+Panel\+\_\+\+Drop} (object sender, Drag\+Event\+Args e)
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_a9e3e926d26013dbab00c1043b698850f}\label{class_food___wars_1_1_game_a9e3e926d26013dbab00c1043b698850f}} 
+void {\bfseries Products\+Wrap\+Panel\+\_\+\+Mouse\+Enter} (object sender, Mouse\+Event\+Args e)
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_ab3c4e7fee43fe044ae41b52778bb7c05}\label{class_food___wars_1_1_game_ab3c4e7fee43fe044ae41b52778bb7c05}} 
+void {\bfseries On\+Menu\+Click} (object sender, Routed\+Event\+Args e)
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_a07a1d43f1707d920d499c3d1008df9d5}\label{class_food___wars_1_1_game_a07a1d43f1707d920d499c3d1008df9d5}} 
+void {\bfseries Position\+At\+Wrap\+Panel} (int index, int left\+Margin, int top\+Margin, int size, ref int picture\+Left, ref int picture\+Top)
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_a73e436658efc416d8ab1c3104d7fbc2a}\label{class_food___wars_1_1_game_a73e436658efc416d8ab1c3104d7fbc2a}} 
+void {\bfseries Position\+At\+Plate} (int index, int left\+Margin, int top\+Margin, int size, ref int picture\+Left, ref int picture\+Top)
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_a89b2f822cbc229b96bc178c1326769c8}\label{class_food___wars_1_1_game_a89b2f822cbc229b96bc178c1326769c8}} 
+int {\bfseries Count\+Calories} ()
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_a94dd89ae70ff8514edb687e78f8e08f4}\label{class_food___wars_1_1_game_a94dd89ae70ff8514edb687e78f8e08f4}} 
+void {\bfseries Show\+Score} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_a28f85fb5c5b73dcad67867e630f155f7}\label{class_food___wars_1_1_game_a28f85fb5c5b73dcad67867e630f155f7}} 
+\mbox{\hyperlink{class_food___wars_1_1_plate}{Plate}} {\bfseries \+\_\+plate}
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_a4d2062080c3ada29a5f693e0d84fb7f9}\label{class_food___wars_1_1_game_a4d2062080c3ada29a5f693e0d84fb7f9}} 
+\mbox{\hyperlink{class_food___wars_1_1_map_setting}{Map\+Setting}} {\bfseries \+\_\+map}
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_a3c74fe62eddd7230b390c325dff9cfc0}\label{class_food___wars_1_1_game_a3c74fe62eddd7230b390c325dff9cfc0}} 
+\mbox{\hyperlink{class_food___wars_1_1_player}{Player}} {\bfseries \+\_\+player}
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_a62a8c37d4157bf4aed4a3bc34469f6d6}\label{class_food___wars_1_1_game_a62a8c37d4157bf4aed4a3bc34469f6d6}} 
+Dispatcher\+Timer {\bfseries \+\_\+timer}
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_a67ab78f4aaa485881283d187705dbf7d}\label{class_food___wars_1_1_game_a67ab78f4aaa485881283d187705dbf7d}} 
+\mbox{\hyperlink{class_food___wars_1_1_menu}{Menu}} {\bfseries menu}
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_a12b43e6beaf1a08e9e3ab5bd8ec8ffc6}\label{class_food___wars_1_1_game_a12b43e6beaf1a08e9e3ab5bd8ec8ffc6}} 
+int {\bfseries \+\_\+map\+\_\+counter} = 1
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_a1cf2b8c31e5874024f7a757d1ff3816e}\label{class_food___wars_1_1_game_a1cf2b8c31e5874024f7a757d1ff3816e}} 
+int {\bfseries \+\_\+second}
+\item 
+\mbox{\Hypertarget{class_food___wars_1_1_game_a207130e32a93837a58be72a9cdd55047}\label{class_food___wars_1_1_game_a207130e32a93837a58be72a9cdd55047}} 
+int {\bfseries \+\_\+minute}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+J\+P\+W\+P\+\_\+projekty/\+Food\+\_\+\+Wars\+\_\+2019/\+Food\+Wars/\+Projekt\+\_\+\+J\+P\+W\+P/Game.\+xaml.\+cs\end{DoxyCompactItemize}

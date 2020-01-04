@@ -1,0 +1,18 @@
+﻿<Window x:Class="Food_Wars.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" Topmost="True"
+        Title="Food_Wars" Height="720" Width="1280" ResizeMode="NoResize" Cursor="Arrow" WindowStartupLocation="CenterScreen"
+        WindowStyle="None" x:Name="Food_Wars_Window">
+    <Window.Background>
+        <SolidColorBrush Color="Transparent"/>
+    </Window.Background>
+    <Grid>
+        <Frame
+            x:Name="GameFrame"
+            Background="Transparent"
+            NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>

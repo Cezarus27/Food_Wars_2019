@@ -1,0 +1,41 @@
+﻿<Page x:Class="Food_Wars.Menu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:gif="http://wpfanimatedgif.codeplex.com"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1280"
+      Title="Menu"
+      KeepAlive="True">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="img/Menu.png"/>
+        </Grid.Background>
+
+        <Image HorizontalAlignment="Left" Height="254" Width="545" Margin="367,427,0,0" VerticalAlignment="Top"  Source="img/menu_plate.png"/>
+        <Image HorizontalAlignment="Left" Height="210" Width="185" Margin="145,12,0,0" VerticalAlignment="Top" gif:ImageBehavior.AnimatedSource="img/fire.gif"/>
+        <Image HorizontalAlignment="Left" Height="210" Width="185" Margin="948,12,0,0" VerticalAlignment="Top" gif:ImageBehavior.AnimatedSource="img/fire.gif"/>
+        <Image HorizontalAlignment="Left" Height="501" Width="120" Margin="180,180,0,0" VerticalAlignment="Top"  Source="img/column1.png"/>
+        <Image HorizontalAlignment="Left" Height="501" Width="121" Margin="980,180,0,0" VerticalAlignment="Top" Source="img/column1.png"/>
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="490,81,490,279">
+            <Button x:Name="NewGame"  Height="100" Width="300" Content="NOWA GRA" Click="NewGame_Click" TextBlock.FontSize="40" Style="{StaticResource MyButton}">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/button2.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="BackToGame" Height="100" Width="300" Margin="0,20,0,0" Content="WRÓĆ DO GRY" Click="BackToGame_Click" TextBlock.FontSize="40" Style="{StaticResource MyButton}">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/button2.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Exit" Height="100" Width="300" Margin="0,20,0,0" Content="WYJDŹ Z GRY" Click="Exit_Click" TextBlock.FontSize="40" Style="{StaticResource MyButton}">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/button2.png"/>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Page>
