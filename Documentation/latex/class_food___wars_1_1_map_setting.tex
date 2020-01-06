@@ -1,14 +1,17 @@
 \hypertarget{class_food___wars_1_1_map_setting}{}\doxysection{Food\+\_\+\+Wars.\+Map\+Setting Class Reference}
 \label{class_food___wars_1_1_map_setting}\index{Food\_Wars.MapSetting@{Food\_Wars.MapSetting}}
+
+
+Ustawienia map. Zawiera metody wyboru produktów wraz z właściwościami  
+
+
 \doxysubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{class_food___wars_1_1_map_setting_ab2454335890fe3df71887731ddbe7c8e}\label{class_food___wars_1_1_map_setting_ab2454335890fe3df71887731ddbe7c8e}} 
-{\bfseries Map\+Setting} (int set\+Number)
-\item 
-\mbox{\Hypertarget{class_food___wars_1_1_map_setting_a6deb95204b86834a254e934c625e44fd}\label{class_food___wars_1_1_map_setting_a6deb95204b86834a254e934c625e44fd}} 
-void {\bfseries Delete\+Lists} ()
-\end{DoxyCompactItemize}
+\mbox{\hyperlink{class_food___wars_1_1_map_setting_ab2454335890fe3df71887731ddbe7c8e}{Map\+Setting}} (int set\+Number)
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \mbox{\hyperlink{class_food___wars_1_1_map_setting}{Map\+Setting}}. Przyjmuje jako argument numer mapy, która ma zostać utworzona \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_food___wars_1_1_map_setting_a6deb95204b86834a254e934c625e44fd}{Delete\+Lists}} ()
+\begin{DoxyCompactList}\small\item\em Usuwa elementy z list \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsection*{Properties}
 \begin{DoxyCompactItemize}
 \item 
@@ -45,36 +48,29 @@ enum {\bfseries \+\_\+all\+Products} \{ \newline
 \doxysubsection*{Private Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{class_food___wars_1_1_map_setting_a0db0eed427354993d5616fd295e566cb}\label{class_food___wars_1_1_map_setting_a0db0eed427354993d5616fd295e566cb}} 
-void {\bfseries Choose\+Products} (int product\+Number)
-\item 
-\mbox{\Hypertarget{class_food___wars_1_1_map_setting_ae146bc0cc8d20017cb1d130d2ebd6c41}\label{class_food___wars_1_1_map_setting_ae146bc0cc8d20017cb1d130d2ebd6c41}} 
-void {\bfseries Create\+All\+Products} (int product\+Number)
-\item 
-\mbox{\Hypertarget{class_food___wars_1_1_map_setting_af94e50083b6d4c368961f64b2c3985a9}\label{class_food___wars_1_1_map_setting_af94e50083b6d4c368961f64b2c3985a9}} 
-void {\bfseries Create\+Product} (int calories, string name)
-\item 
-\mbox{\Hypertarget{class_food___wars_1_1_map_setting_a20c9c1cbd030873de2bfa8a5283a797a}\label{class_food___wars_1_1_map_setting_a20c9c1cbd030873de2bfa8a5283a797a}} 
-int {\bfseries Choose\+Calories} (int tab\+Index)
-\item 
-\mbox{\Hypertarget{class_food___wars_1_1_map_setting_a9c66a0eb938594c66665152bcd621de8}\label{class_food___wars_1_1_map_setting_a9c66a0eb938594c66665152bcd621de8}} 
-void {\bfseries Victory\+Condidtion} (int elements)
-\item 
-\mbox{\Hypertarget{class_food___wars_1_1_map_setting_ae4729dc8be839af64546181161b4c747}\label{class_food___wars_1_1_map_setting_ae4729dc8be839af64546181161b4c747}} 
-bool {\bfseries Index\+Exist} (ref int\mbox{[}$\,$\mbox{]} tab\+Index, int index)
-\item 
-\mbox{\Hypertarget{class_food___wars_1_1_map_setting_a7cc73f0a25d369fdf5f7e71d1a444340}\label{class_food___wars_1_1_map_setting_a7cc73f0a25d369fdf5f7e71d1a444340}} 
-bool {\bfseries Element\+Exist} (string name)
-\end{DoxyCompactItemize}
+void \mbox{\hyperlink{class_food___wars_1_1_map_setting_a0db0eed427354993d5616fd295e566cb}{Choose\+Products}} (int product\+Number)
+\begin{DoxyCompactList}\small\item\em Wybiera w losowy sposób elementy z \char`\"{}\+\_\+all\+Products\char`\"{} \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_food___wars_1_1_map_setting_ae146bc0cc8d20017cb1d130d2ebd6c41}{Create\+All\+Products}} (int product\+Number)
+\begin{DoxyCompactList}\small\item\em Wszystkie elementy \char`\"{}\+\_\+all\+Products\char`\"{} są wybierane oraz tworzone są na tej podstawie obiekty klasy \mbox{\hyperlink{class_food___wars_1_1_product}{Product}} \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_food___wars_1_1_map_setting_af94e50083b6d4c368961f64b2c3985a9}{Create\+Product}} (int calories, string name)
+\begin{DoxyCompactList}\small\item\em Tworzy obiekt klasy \mbox{\hyperlink{class_food___wars_1_1_product}{Product}} \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_food___wars_1_1_map_setting_a20c9c1cbd030873de2bfa8a5283a797a}{Choose\+Calories}} (int tab\+Index)
+\begin{DoxyCompactList}\small\item\em Wybiera wartość kaloryki \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_food___wars_1_1_map_setting_a9c66a0eb938594c66665152bcd621de8}{Victory\+Condidtion}} (int elements)
+\begin{DoxyCompactList}\small\item\em Metoda w sposób losowy generuje maksymalną wartość kalorii \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_food___wars_1_1_map_setting_ae4729dc8be839af64546181161b4c747}{Index\+Exist}} (ref int\mbox{[}$\,$\mbox{]} tab\+Index, int index)
+\begin{DoxyCompactList}\small\item\em Zwraca prawdę jeżeli indeks wystąpił chociaż raz \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_food___wars_1_1_map_setting_a7cc73f0a25d369fdf5f7e71d1a444340}{Element\+Exist}} (string name)
+\begin{DoxyCompactList}\small\item\em Zwraca prawdę jeżeli nazwa wystąpiła chociaż raz \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsection*{Private Attributes}
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\Hypertarget{class_food___wars_1_1_map_setting_a0fab7134b82f76e32f804420f151af7b}\label{class_food___wars_1_1_map_setting_a0fab7134b82f76e32f804420f151af7b}} 
-List$<$ \mbox{\hyperlink{class_food___wars_1_1_product}{Product}} $>$ {\bfseries \+\_\+products} = new List$<$\mbox{\hyperlink{class_food___wars_1_1_product}{Product}}$>$()
-\item 
+List$<$ \mbox{\hyperlink{class_food___wars_1_1_product}{Product}} $>$ \mbox{\hyperlink{class_food___wars_1_1_map_setting_a0fab7134b82f76e32f804420f151af7b}{\+\_\+products}} = new List$<$\mbox{\hyperlink{class_food___wars_1_1_product}{Product}}$>$()
+\begin{DoxyCompactList}\small\item\em Lista produktów wybranych w danej konfiguracji mapy. \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{class_food___wars_1_1_map_setting_aaa0c89758d9ea0347204c4fedc4aedb9}\label{class_food___wars_1_1_map_setting_aaa0c89758d9ea0347204c4fedc4aedb9}} 
-List$<$ int $>$ {\bfseries \+\_\+calories} = new List$<$int$>$()
-\item 
+List$<$ int $>$ \mbox{\hyperlink{class_food___wars_1_1_map_setting_aaa0c89758d9ea0347204c4fedc4aedb9}{\+\_\+calories}} = new List$<$int$>$()
+\begin{DoxyCompactList}\small\item\em Lista kalorii produktów wybranych w danej konfiguracji mapy. \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{class_food___wars_1_1_map_setting_aa198fb0108bdee41ac337eae43251745}\label{class_food___wars_1_1_map_setting_aa198fb0108bdee41ac337eae43251745}} 
 int {\bfseries map\+Setting}
 \item 
@@ -88,10 +84,159 @@ int {\bfseries \+\_\+product\+At\+Plate}
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\Hypertarget{class_food___wars_1_1_map_setting_ae61dbd006e00e5fd66f020477685b279}\label{class_food___wars_1_1_map_setting_ae61dbd006e00e5fd66f020477685b279}} 
-static int\mbox{[}$\,$\mbox{]} {\bfseries \+\_\+product\+Calories} = \{ 60, 30, 20, 40, 400, 200, 150, 150, 75, 70, 320, 15 \}
-\end{DoxyCompactItemize}
+static int\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_food___wars_1_1_map_setting_ae61dbd006e00e5fd66f020477685b279}{\+\_\+product\+Calories}} = \{ 60, 30, 20, 40, 400, 200, 150, 150, 75, 70, 320, 15 \}
+\begin{DoxyCompactList}\small\item\em Tablica z wartościami wszystkich produktów. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
-The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
-\item 
-D\+:/\+J\+P\+W\+P\+\_\+projekty/\+Food\+\_\+\+Wars\+\_\+2019/\+Food\+Wars/\+Projekt\+\_\+\+J\+P\+W\+P/Map\+Setting.\+cs\end{DoxyCompactItemize}
+\doxysubsection{Detailed Description}
+Ustawienia map. Zawiera metody wyboru produktów wraz z właściwościami 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_food___wars_1_1_map_setting_ab2454335890fe3df71887731ddbe7c8e}\label{class_food___wars_1_1_map_setting_ab2454335890fe3df71887731ddbe7c8e}} 
+\index{Food\_Wars.MapSetting@{Food\_Wars.MapSetting}!MapSetting@{MapSetting}}
+\index{MapSetting@{MapSetting}!Food\_Wars.MapSetting@{Food\_Wars.MapSetting}}
+\doxysubsubsection{\texorpdfstring{MapSetting()}{MapSetting()}}
+{\footnotesize\ttfamily Food\+\_\+\+Wars.\+Map\+Setting.\+Map\+Setting (\begin{DoxyParamCaption}\item[{int}]{set\+Number }\end{DoxyParamCaption})}
+
+
+
+Konstruktor klasy \mbox{\hyperlink{class_food___wars_1_1_map_setting}{Map\+Setting}}. Przyjmuje jako argument numer mapy, która ma zostać utworzona 
+
+
+\begin{DoxyParams}{Parameters}
+{\em set\+Number} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_food___wars_1_1_map_setting_a20c9c1cbd030873de2bfa8a5283a797a}\label{class_food___wars_1_1_map_setting_a20c9c1cbd030873de2bfa8a5283a797a}} 
+\index{Food\_Wars.MapSetting@{Food\_Wars.MapSetting}!ChooseCalories@{ChooseCalories}}
+\index{ChooseCalories@{ChooseCalories}!Food\_Wars.MapSetting@{Food\_Wars.MapSetting}}
+\doxysubsubsection{\texorpdfstring{ChooseCalories()}{ChooseCalories()}}
+{\footnotesize\ttfamily int Food\+\_\+\+Wars.\+Map\+Setting.\+Choose\+Calories (\begin{DoxyParamCaption}\item[{int}]{tab\+Index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Wybiera wartość kaloryki 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tab\+Index} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_food___wars_1_1_map_setting_a0db0eed427354993d5616fd295e566cb}\label{class_food___wars_1_1_map_setting_a0db0eed427354993d5616fd295e566cb}} 
+\index{Food\_Wars.MapSetting@{Food\_Wars.MapSetting}!ChooseProducts@{ChooseProducts}}
+\index{ChooseProducts@{ChooseProducts}!Food\_Wars.MapSetting@{Food\_Wars.MapSetting}}
+\doxysubsubsection{\texorpdfstring{ChooseProducts()}{ChooseProducts()}}
+{\footnotesize\ttfamily void Food\+\_\+\+Wars.\+Map\+Setting.\+Choose\+Products (\begin{DoxyParamCaption}\item[{int}]{product\+Number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Wybiera w losowy sposób elementy z \char`\"{}\+\_\+all\+Products\char`\"{} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em product\+Number} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_food___wars_1_1_map_setting_ae146bc0cc8d20017cb1d130d2ebd6c41}\label{class_food___wars_1_1_map_setting_ae146bc0cc8d20017cb1d130d2ebd6c41}} 
+\index{Food\_Wars.MapSetting@{Food\_Wars.MapSetting}!CreateAllProducts@{CreateAllProducts}}
+\index{CreateAllProducts@{CreateAllProducts}!Food\_Wars.MapSetting@{Food\_Wars.MapSetting}}
+\doxysubsubsection{\texorpdfstring{CreateAllProducts()}{CreateAllProducts()}}
+{\footnotesize\ttfamily void Food\+\_\+\+Wars.\+Map\+Setting.\+Create\+All\+Products (\begin{DoxyParamCaption}\item[{int}]{product\+Number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Wszystkie elementy \char`\"{}\+\_\+all\+Products\char`\"{} są wybierane oraz tworzone są na tej podstawie obiekty klasy \mbox{\hyperlink{class_food___wars_1_1_product}{Product}} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em product\+Number} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_food___wars_1_1_map_setting_af94e50083b6d4c368961f64b2c3985a9}\label{class_food___wars_1_1_map_setting_af94e50083b6d4c368961f64b2c3985a9}} 
+\index{Food\_Wars.MapSetting@{Food\_Wars.MapSetting}!CreateProduct@{CreateProduct}}
+\index{CreateProduct@{CreateProduct}!Food\_Wars.MapSetting@{Food\_Wars.MapSetting}}
+\doxysubsubsection{\texorpdfstring{CreateProduct()}{CreateProduct()}}
+{\footnotesize\ttfamily void Food\+\_\+\+Wars.\+Map\+Setting.\+Create\+Product (\begin{DoxyParamCaption}\item[{int}]{calories,  }\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Tworzy obiekt klasy \mbox{\hyperlink{class_food___wars_1_1_product}{Product}} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em calories} & \\
+\hline
+{\em name} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_food___wars_1_1_map_setting_a6deb95204b86834a254e934c625e44fd}\label{class_food___wars_1_1_map_setting_a6deb95204b86834a254e934c625e44fd}} 
+\index{Food\_Wars.MapSetting@{Food\_Wars.MapSetting}!DeleteLists@{DeleteLists}}
+\index{DeleteLists@{DeleteLists}!Food\_Wars.MapSetting@{Food\_Wars.MapSetting}}
+\doxysubsubsection{\texorpdfstring{DeleteLists()}{DeleteLists()}}
+{\footnotesize\ttfamily void Food\+\_\+\+Wars.\+Map\+Setting.\+Delete\+Lists (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Usuwa elementy z list 
+
+\mbox{\Hypertarget{class_food___wars_1_1_map_setting_a7cc73f0a25d369fdf5f7e71d1a444340}\label{class_food___wars_1_1_map_setting_a7cc73f0a25d369fdf5f7e71d1a444340}} 
+\index{Food\_Wars.MapSetting@{Food\_Wars.MapSetting}!ElementExist@{ElementExist}}
+\index{ElementExist@{ElementExist}!Food\_Wars.MapSetting@{Food\_Wars.MapSetting}}
+\doxysubsubsection{\texorpdfstring{ElementExist()}{ElementExist()}}
+{\footnotesize\ttfamily bool Food\+\_\+\+Wars.\+Map\+Setting.\+Element\+Exist (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Zwraca prawdę jeżeli nazwa wystąpiła chociaż raz 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_food___wars_1_1_map_setting_ae4729dc8be839af64546181161b4c747}\label{class_food___wars_1_1_map_setting_ae4729dc8be839af64546181161b4c747}} 
+\index{Food\_Wars.MapSetting@{Food\_Wars.MapSetting}!IndexExist@{IndexExist}}
+\index{IndexExist@{IndexExist}!Food\_Wars.MapSetting@{Food\_Wars.MapSetting}}
+\doxysubsubsection{\texorpdfstring{IndexExist()}{IndexExist()}}
+{\footnotesize\ttfamily bool Food\+\_\+\+Wars.\+Map\+Setting.\+Index\+Exist (\begin{DoxyParamCaption}\item[{ref int\mbox{[}$\,$\mbox{]}}]{tab\+Index,  }\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Zwraca prawdę jeżeli indeks wystąpił chociaż raz 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tab\+Index} & \\
+\hline
+{\em index} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_food___wars_1_1_map_setting_a9c66a0eb938594c66665152bcd621de8}\label{class_food___wars_1_1_map_setting_a9c66a0eb938594c66665152bcd621de8}} 
+\index{Food\_Wars.MapSetting@{Food\_Wars.MapSetting}!VictoryCondidtion@{VictoryCondidtion}}
+\index{VictoryCondidtion@{VictoryCondidtion}!Food\_Wars.MapSetting@{Food\_Wars.MapSetting}}
+\doxysubsubsection{\texorpdfstring{VictoryCondidtion()}{VictoryCondidtion()}}
+{\footnotesize\ttfamily void Food\+\_\+\+Wars.\+Map\+Setting.\+Victory\+Condidtion (\begin{DoxyParamCaption}\item[{int}]{elements }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Metoda w sposób losowy generuje maksymalną wartość kalorii 
+
+
+\begin{DoxyParams}{Parameters}
+{\em elements} & \\
+\hline
+\end{DoxyParams}
